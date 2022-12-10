@@ -1,0 +1,113 @@
+/*general*/
+.fontPagina{
+    font-family: 'Rubik Dirt', cursive, monospace
+
+}
+p, h5, h2, th, td{
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*fin general*/
+
+
+
+
+
+.cajaEmail, .cajaContrasenia{
+    width: 300px;
+}
+
+.inicioSesion{
+    
+    align-items: center;
+}
+
+body{
+    background-color:  rgb(32,32,32); 
+}
+
+.cajaCentral{
+    border: RGBA(33,37,41);
+}
+
+.textoPagina{
+    text-align: justify;
+}
+
+.seccion-oscura {
+    background-color: rgb(32,32,32);
+    color: white;
+}
+
+.tituloNoticia1, .subTitulo{
+    font-weight: bold;
+}
+
+.subTitulo{
+    text-align: center;
+}
+
+/*Table*/
+
+.enlacesSinColor{
+    color: #193783;
+    text-decoration: none;
+}
+/*Fin Table*/
+.accordion-body{
+    text-align: justify;
+}
+
+/*Footer*/
+.footer{
+    min-height: 500px;
+}
+
+.footer-logo{
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+.footer-texto{
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.iconos-redes-sociales a{
+    width: 50px;
+    height: 50px;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+}
+
+
+.iconos-redes-sociales i{
+    color: white;
+    font-size: 1.6rem;
+    transition: all 0.5s ease-in;
+}
+
+.iconos-redes-sociales a:hover{
+    background-color: white;
+    border: 2px solid rgb(13,110,253);
+}
+
+.iconos-redes-sociales a:hover i{
+    color: black;
+}
+
+.derechos-autor{
+    font-size: 20px;
+    color: #aeaeae;
+    padding: 20px;
+}
+/*Fin Footer*/

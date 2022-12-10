@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--Metadatos-->
+  <meta name="author" content="Cristian Cabrera">
+  <meta name="description" content="Pagina de Videojuegos">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <title>GG Prices | Home </title>
+
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+
+  <!--Favicon-->
+  <link rel="icon" type="image/x-icon" href="/BackEnd2.0/misProyectos/myPages/ggPrices/img/joystick.svg">
+
+  <!--ownCSS-->
+  <link rel="stylesheet" href="/BackEnd2.0/misProyectos/myPages/ggPrices/css/style.css">
+
+  <!--GoogleFont-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap"
+    rel="stylesheet">
+
+  <!--BootstrapIcons-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <!------Sección de navbar------>
+  <nav class="navbar navbar-expand-lg bg-secondary">
+    <div class="container-fluid">
+      <a class="navbar-brand alert-danger" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+          fill="rgb(245,248,238)" class="bi bi-joystick" viewBox="0 0 16 16">
+          <path
+            d="M10 2a2 2 0 0 1-1.5 1.937v5.087c.863.083 1.5.377 1.5.726 0 .414-.895.75-2 .75s-2-.336-2-.75c0-.35.637-.643 1.5-.726V3.937A2 2 0 1 1 10 2z" />
+          <path
+            d="M0 9.665v1.717a1 1 0 0 0 .553.894l6.553 3.277a2 2 0 0 0 1.788 0l6.553-3.277a1 1 0 0 0 .553-.894V9.665c0-.1-.06-.19-.152-.23L9.5 6.715v.993l5.227 2.178a.125.125 0 0 1 .001.23l-5.94 2.546a2 2 0 0 1-1.576 0l-5.94-2.546a.125.125 0 0 1 .001-.23L6.5 7.708l-.013-.988L.152 9.435a.25.25 0 0 0-.152.23z" />
+        </svg></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link active fontPagina" aria-current="page" href="#"><h4>GG Prices</h4></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.eneba.com/latam/" target="_blank">Comprar Juegos Digitales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.hobbyconsolas.com/" target="_blank">Noticias del mundo Gamer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Info. <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"
+                fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                <path
+                  d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+              </svg></a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+          <button class="btn btn-dark" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <br>
+  
+  <!------Sección de noticias y cambio de páginas------>
+
+  <div class="card text-center container  text-bg-dark">
+    <div class="card-header text-bg-dark">
+      <ul class="nav nav-tabs card-header-tabs ">
+        <li class="nav-item">
+          <a class="nav-link active text-bg-secondary" aria-current="true" href="#">Noticias</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-bg-primary" aria-current="true" href="#">Play Station</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-bg-danger" aria-current="true" href="#">Nintendo Switch</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-bg-success" aria-current="true" href="#">Xbox</a>
+        </li>
+      </ul>
+    </div>
+    <div class="card-body text-bg-dark cajaCentral">
+      <h5 class="card-title tituloNoticia1">Cómo ver The Game Awards 2022 y las recompensas que puedes ganar por ello
+      </h5>
+      <br>
+      <p class="card-text textoPagina">The Game Awards 2022 tendrá lugar esta misma noche y para que no te pierdas esta
+        importante cita, por aquí te dejamos toda la información que necesitas conocer para ver el evento en directo.
+
+        La última gran cita del mundo de los videojuegos para este 2022 es The Game Awards. Geoff Keighley ya tiene
+        preparado su evento para una nueva edición con muchos nombres propios como Elden Ring o God of War Ragnarok.
+      </p>
+      <br>
+      <p class="card-text textoPagina subTitulo">Horario, duración y streams de The Game Awards 2022</p>
+      <br>
+      <p class="card-text textoPagina">El evento arrancará a las 01:30 am (horario peninsular español) de la madrugada
+        del viernes 9 de diciembre. Se sabe que el evento tendrá una duración menor que la gala del pasado año,
+        concretamente, 45 minutos menos. Eso nos deja que The Game Awards 2022 tendrá una duración de 2 horas y media,
+        aproximadamente.</p>
+      <br>
+      <p class="card-text textoPagina">Durante todo este tiempo podremos conocer todos los ganadores de entre los
+        nominados a cada una de las categorías y también se realizarán importantes anuncios y "world premieres" de Geoff
+        Keighley relacionados con próximos lanzamientos. Toca estar atentos de todo lo nuevo que se muestre.</p>
+      <br>
+      <p class="card-text textoPagina">Para ello, se han publicado varios links para poder ver el evento en directo. El
+        canal oficial de YouTube de The Game Awards retransmitirá toda la gala, al igual que el canal de Twitch. También
+        podréis seguirlo a través de redes sociales como Twitter o Instagram. Y, claro está, en Hobby Consolas os
+        estaremos informando de todo lo nuevo que se de a conocer.</p>
+      <br>
+      <p class="card-text textoPagina subTitulo">Recompensas que puedes ganar viendo The Game Awards 2022</p>
+      <br>
+      <p class="card-text textoPagina">Para canjear códigos de recompensa debes ir a Epic Games Store, Warframe o Steam,
+        en el caso de Cult of the Lamb. Los premios ya se han detallado:</p>
+      <br>
+      <p class="card-text textoPagina">
+        <strong>Fall Guys:</strong> skin de una colaboración no revelada para el juego.</p>
+      <p class="card-text textoPagina">
+        <strong>Rogue Legacy:</strong> juego completo para Epic Games Store.
+      </p>
+      <p class="card-text textoPagina">
+        <strong>Warframe:</strong> syandana Lucra y un potenciador de afinidad de 3 días.
+      </p>
+      <p class="card-text textoPagina">
+        <strong>Among Us:</strong> skin de Geoff Keighley en el juego.
+      </p>
+      <p class="card-text textoPagina">
+        <strong>SIFU:</strong> código para una actualización a la edición deluxe del juego en Epic Game Store.
+      </p><p class="card-text textoPagina">
+        <strong>Cult of the Lamb:</strong> 3 formularios de seguidores de gestos de Twitch.
+      </p>
+      <br>
+      <p class="card-text textoPagina">Aunque no es lo único, ya que también podrás conseguir una Steam Deck de 512 GB
+        cada minuto durante la retransmisión de The Game Awards. Valve ha lanzado todos los detalles de este sorteo
+        masivo recientemente.</p>
+
+      <a href="https://www.youtube.com/watch?v=guXJRS6tvsY" class="btn btn-primary" target="_blank">Enlace directo<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+          fill="currentColor" class="bi bi-play-btn" viewBox="0 0 16 16">
+          <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
+          <path
+            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z" />
+        </svg></a>
+    </div>
+  </div>
+  <br>
+  <!------Sección de carrousel------>
+
+  <div id="carouselExampleCaptions" class="carousel slide container" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a href="https://es.bandainamcoent.eu/elden-ring/elden-ring" target="_blank"><img src="https://i.blogs.es/2e1760/elden-ring/1366_2000.jpeg" class="d-block w-100" alt="EldenRing"></a>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Elden Ring</h5>
+          <p>Disponible en PS4&PS5, Xbox One&SeriesS/X, PC</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <a href="https://scarletviolet.pokemon.com/es-mx/" target="_blank"><img src="https://tierragamer.com/wp-content/uploads/2022/08/Poke%CC%81mon-Violet-Y-Scarlet-TierraGamer.jpeg"
+          class="d-block w-100" alt="PokemonS&V"></a>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Pokémon Scarlet&Violet</h5>
+          <p>Exclusivo de NS Switch</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <a href="https://www.playstation.com/es-gt/games/god-of-war-ragnarok/" target="_blank"><img src="https://www.mdtech.news/u/fotografias/m/2022/11/6/f1280x720-11116_142791_5050.jpg"
+          class="d-block w-100" alt="GOWR"></a>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>God Of War: Ragnarok</h5>
+          <p>Exclusivo de PS4&PS5</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <br>
+<!------Sección de acordion------>
+<div class="accordion container" id="accordionPanelsStayOpenExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+        Elden Ring ya tiene su primer premio GOTY o juego del año
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+      <div class="accordion-body">
+        <strong><p>Los Sin Luz se han alzado con el mejor juego de los Japan Game Awards 2022. Elden Ring ha sido galardonado con el Gran Premio en Tokyo Game Show, pero ha habido otros premiados. Repasamos la lista al completo.</strong> En pleno Tokyo Game Show 2022, Elden Ring, la obra de FromSoftware en colaboración con George RR Martin se ha postulado como el mejor juego para la feria ganando los Japan Game Awards 2022.</p> 
+        <a href="https://www.hobbyconsolas.com/noticias/elden-ring-mejor-juego-japan-game-awards-2022-lista-ganadores-1125039" target="_blank"><small>Ver más...</small></a>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+        ¿Un servicio como Game Pass en Steam Deck? Valve aclara si se lo plantean en este momento
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+      <div class="accordion-body">
+        <strong><p>Valve habla sobre la posibilidad de un servicio como Game Pass en Steam Deck. Su CEO Gabe Newell ha comentado sobre estos rumores en torno a una suscripción en su PC portátil y ha revelado detalles sobre lo que puede traer el futuro.</strong> Valve habla sobre la posibilidad de un servicio como Game Pass en Steam Deck. Su CEO Gabe Newell ha comentado sobre estos rumores en torno a una suscripción en su PC portátil y ha revelado detalles sobre lo que puede traer el futuro.</p>
+        <a href="https://www.hobbyconsolas.com/noticias/valve-aclara-plantean-incluir-servicio-como-game-pass-steam-deck-1018951" target="_blank"><small>Ver más...</small></a>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+        Póster oficial de The Last of Us, que llegará al catálogo de HBO Max en enero
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+      <div class="accordion-body">
+        <strong><p>El póster oficial de The Last of Us confirma que la serie se estrenará en el catálogo de HBO Max el 16 de enero de 2022.</strong> Este 2023 arrancará a lo grande en HBO Max con The Last of Us, la adaptación televisiva del popular videojuego de Naughty Dog que lleva a cabo su propio creador, Neil Druckmann, junto con Craig Mazin, responsable de la indispensable serie de HBO Max Chernobyl.</p>
+        <a href="https://www.hobbyconsolas.com/noticias/poster-oficial-last-us-confirmando-fecha-estreno-hbo-max-1149885" target="_blank"><small>Ver más...</small></a>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+  <!------Sección de noticias
+  <div class="list-group container">
+    <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">Elden Ring ya tiene su primer premio GOTY o juego del año</h5>
+        <small>Hace 3 días</small>
+      </div>
+      <p class="mb-1">La dura batalla por el GOTY de este año.</p>
+      <small>Ver más...</small>
+    </a>
+    <a href="#" class="list-group-item list-group-item-action">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">Consigue una Steam Deck de 512 GB Sólo por ver The Game Awards 2022</h5>
+        <small class="text-muted">Hace 4 días</small>
+      </div>
+      <p class="mb-1">Valve anuncia el sorteo de Steam Deck con motivo de la gala The Game Awards 2022. </p>
+      <small class="text-muted">Ver más...</small>
+    </a>
+    <a href="#" class="list-group-item list-group-item-action">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">Póster oficial de The Last Of Us, la adaptación del videojuego de Naughty Dog.</h5>
+        <small class="text-muted">Hace 4 días</small>
+      </div>
+      <p class="mb-1">Así es el póster oficial de The Last of Us, la nueva serie de HBO Max basada en el célebre
+        videojuego.</p>
+      <small class="text-muted">Ver más...</small>
+    </a>
+  </div>
+  <br>
+  ------>
+
+<!------Sección de table------>
+<table class="table table-hover table-primary table-striped container">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Los Juegos más comprados de la semana</th>
+      <th scope="col">Precio</th>  
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td><a href="https://es.bandainamcoent.eu/elden-ring/elden-ring" target="_blank" class="enlacesSinColor">Elden Ring</a></td>
+      <td>Q. 450.00</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td><a href="https://scarletviolet.pokemon.com/es-mx/" target="_blank" class="enlacesSinColor">Pokémon Scarlet & Violet</a></td>
+      <td>Q. 555.00</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td><a href="https://stray.game/" target="_blank" class="enlacesSinColor">Stray</a></td>
+      <td>Q. 255.00</td>
+    </tr>
+    <tr>
+      
+      <th scope="row">4</th>
+      <td ><a href="https://www.playstation.com/es-gt/games/god-of-war-ragnarok/" target="_blank" class="enlacesSinColor">God of War Ragnarok</a></td>
+      <td>Q. 470.00</td>
+    </tr>
+    <tr>
+      
+      <th scope="row">5</th>
+      <td ><a href="https://www.monsterhunter.com/rise/es/" target="_blank" class="enlacesSinColor">Monster Hunter Rise: Sunbreak</a></td>
+      <td>Q. 500.00</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+
+<!------Sección de footer------>
+  <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+    <img class="footer-logo" src="./img/icono-blanco.svg" alt="Logo Página">
+    <p class="footer-texto text-center fontPagina">GG Prices</p>
+    <div class="iconos-redes-sociales d-flex align-items-center justify-content-center">
+      <a href="https://www.twitter.com" target="_blank">
+        <i class="bi bi-twitter"></i>
+      </a>
+      <a href="https://www.twitter.com" target="_blank">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <a href="https://www.twitter.com" target="_blank">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="https://www.twitter.com" target="_blank">
+        <i class="bi bi-youtube"></i>
+      </a>
+      <a href="mailto:nombre@correo.com" target="_blank">
+        <i class="bi bi-envelope"></i>
+      </a>
+    </div>
+    <div class="derechos-autor">Creado Cristian Cabrera (2022) ©</div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+
+</html>
